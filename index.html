@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!--
+        1. write functions that can do each calculation
+        2. create event listeners that will take one input and put to variable first
+        3. then see if operator pressed, then take second, then perform calculation using first and second
+        4. then return result to html (maybe output element is the way)
+        5. this result will also become first now
+        6. at any point, this will all reset if AC is pressed
+
+    -->
+    <div class="container1">
+        <div class="container2">
+            <div class="result" id="displayResult">
+                -
+            </div>
+            <div>
+                <button>AC</button>
+                <button>+/-</button>
+                <button>%</button>
+                <button class="operator">/</button>
+            </div>
+            <div>
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="operator">*</button>
+            </div>
+            <div>
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="operator">-</button>
+            </div>
+            <div>
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="operator">+</button>
+            </div>
+            <div>
+                <button class="number">0</button>
+                <button>blank</button>
+                <button>.</button>
+                <button class="operator">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
